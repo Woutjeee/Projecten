@@ -1,0 +1,382 @@
+/* All round page style's */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    /*font-family: 'Caveat', cursive;*/
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("../images/home-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+/* End style's for all page's */
+
+
+/* Home Page Style'e */
+/*#region*/
+/* Header Style's */
+/*#region*/
+
+.drop-down {
+    width: 3%;
+    float: right;
+    padding: 10px 16px;
+    visibility: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 5%;
+}
+
+.nav-menu {
+    /*background-color: rgba(105, 105, 105, .6);*/
+    font-family: 'Caveat', cursive;
+    border-radius: 0 0 15px 15px;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+.nav-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-menu ul li {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    padding: 14px 16px;
+    transition: .2s ease;
+}
+
+.nav-menu ul li a {
+    opacity: 1.5;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu ul li:hover {
+    background-color: #6e6d6d;
+}
+
+/*#endregion*/
+
+/* Main style's */
+/*#region*/
+
+.pagina-text {
+    position: absolute;
+    color: white;
+    font-size: 200%;
+    left: 20%;
+    top: 25%;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.portfolio-text {
+    color: #d68a5e;
+}
+
+/*#endregion*/
+/*#endregion*/
+
+/* Portfolio | Wout Hiemstra page style's */
+/*#region*/
+
+.container-wout-portfolio {
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-image: url("../images/home-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.portHeader-text {
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    
+}
+
+.picture-me img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+
+}
+
+.picture-me {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 800px;
+}
+
+
+.main {
+    width: 100%;
+    margin-left: 13px;
+}
+
+/* Content's */
+
+/*#region*/
+.content-1, .content-2, .content-3 {
+    float: left;
+    text-align: center;
+    width: 30%;
+    height: 400px;
+    margin: 15px;
+    margin-top: 45px;
+    padding: 15px;
+    background-color: #333333;
+}
+
+.content-1 {
+    background-image: url("../images/wout-portfolio-pcs/mk_edited.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.content-2 {
+    background-image: url("../images/wout-portfolio-pcs/gz_website.png");
+    background-position: center;
+    background-size: 104%;
+    background-repeat: no-repeat;
+}
+
+.content-3 {
+    background-image: url("../images/wout-portfolio-pcs/port_nb.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/*#endregion*/
+
+.port-header {
+    width: 100%;
+    margin: 15px;
+    text-align: center;
+    font-size: 200%;
+    color: white;
+}
+
+.werk-header {
+    width: 99%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+.werkervaring {
+    margin-top: 15px;;
+    width: 99%;
+    height: auto;
+}
+
+.electriecen, .programmeur {
+    width: 100%;
+    background-color: #333333;
+    height: 500px;
+    margin: 15px;
+}
+
+/* Elektricien */
+/*#region*/
+.werk-tekst{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    width: 35%;
+    height: 87%;
+    float: left;
+    font-size: 150%;
+    color: #f0f0f0;
+}
+
+.vloer-jpg {
+    width: 35.4%;
+    height: auto;
+    float: right;
+}
+/*#endregion*/
+
+/*Dub*/
+/*#region*/
+.dub {
+    width: 36.4%;
+    float: left;
+    height: auto;
+}
+
+.dub-tekst {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    height: 87%;
+    float: right;
+    margin: 15px;
+    padding: 15px;
+    font-size: 150%;
+    color: #f0f0f0;
+}
+
+/*#endregion*/
+
+
+/* About me */
+
+.about-me {
+    width: 100%;
+    height: 500px;
+    background-color: #333333;
+    margin: 15px;
+}
+
+.about-me-pic img {
+    width: 26.7%;
+    float: right;
+}
+
+.about-me-text {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    height: 87%;
+    float: left;
+    margin: 15px;
+    padding: 15px;
+    font-size: 150%;
+    color: #f0f0f0;
+}
+
+/* Contact Form */
+/*#region*/
+
+.contact-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact {
+    padding: 15px;
+    margin: 15px;
+    width: 30%;
+    height: 250px;
+    background-color:  #333333;
+    color: #f0f0f0;
+}
+
+.co-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.co-form input, .co-form textarea {
+    float: right;
+}
+
+/*#endregion*/
+
+/* Form Styles */
+/*#region*/
+
+.contact input[type=text]{
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.contact textarea {
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.contact input[type=submit]{
+    padding: 5px 20px
+}
+
+/*#endregion*/
+
+
+/*#endregion*/
+
+/* Mobile */
+/*#region*/
+@media screen and (max-width: 1000px){
+    .nav-menu {
+        width: 75%;
+        display: none;
+    }
+    .nav-menu ul li {
+        width: 50%;
+    }
+
+    .drop-down{
+        visibility: visible;
+    }
+
+    .drop-down:hover {
+        cursor: pointer;
+    }
+
+
+    .content-1, .content-2, .content-3 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .werk-tekst, .about-me-text, .dub-tekst {
+        width: 90%;
+        font-size: 100%;
+        margin: 0;
+    }
+
+    .vloer-jpg, .dub, .me-pic{
+        width: 90%;
+        margin: 0;
+        float: left;
+    }
+
+    .contact, .about-me{
+        width: 100%;
+        height: auto;
+    }
+
+    .electriecen {
+        height: auto;
+    }
+
+    .programmeur {
+        height: auto;
+        margin-top: 100px
+    }
+
+
+}
+/*#endregion*/
+

@@ -1,0 +1,336 @@
+body {
+  margin: 0px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 6px rgb(0, 0, 0);
+}
+
+/*Nav-Bar*/
+.nav {
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 13px;
+}
+
+ul {
+  background:transparent;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    color: darkorange;
+  }
+
+/*Text Top of page*/
+#Textdiv {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+#Text-second-above {
+    text-align: center;
+    color:white;
+    font-size: smaller;
+  }
+
+.Text-first-below {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.Text-second-below {
+    text-align: center;
+    color:white;
+    font-size: smaller;
+    padding-top: 4px;
+}
+
+.textbox2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*Background*/
+body {
+    background-color: black;
+}
+
+/*Picture(s)*/
+.mypicture {
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+    padding-bottom: 50px;
+}
+
+#innerfoto {
+    left:600px;
+    top: 290px;
+    position: absolute;
+    max-width: 250px;
+}
+
+#innerfoto1 {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    font-size: 46px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#innerfoto2 {
+    text-align: center;
+    color:white;
+    font-size: smaller;
+}
+
+.fotobox {
+    display: flex;
+    color:white;
+    align-items: center;
+    width: 100%;
+    max-width: 100vw;
+}
+.fotobox2 {
+    align-items: center;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.foto1 {
+    background-image: url("../images/Kylian-portfolio-fotos/fotoo1.jpg");
+    background-position: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.foto2 {
+    background-image: url("../images/Kylian-portfolio-fotos/fotoo2.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.foto3 {
+    background-image: url("../images/Kylian-portfolio-fotos/fotoo3.jpg");
+    background-position: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.foto1, .foto2, .foto3 {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    align-items: center;
+    float: left;
+    margin-top: 30px;
+    padding: 65px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*Button*/
+button {
+    background-color: rgba(255, 68, 0, 0.678);
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 15px ;
+    width: 105px;
+    height: 35px;
+}
+
+button:hover {
+    background-color: rgb(196, 74, 29);
+}
+
+/* Border box*/
+* {box-sizing:border-box}
+
+/* Slideshow container*/
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Images verbergen */
+.mySlides {
+  display: none;
+}
+
+/* Volgende en vorige knoppen*/
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* De volgende knop */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Doorschijnende zwarte achtergrond bij hover on */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Foto tekst */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* De nummers (1/5) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* De bolletjes */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Vervaag animatie */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+  }
+
+  input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+  background-color: darkorange;
+  }
+
+  .container2 {
+  border-radius: 5px;
+  background-color: rgba(150, 150, 150, 0.25);
+  box-shadow: 0px 0px 5px rgb(255, 255, 255);
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  }
+
+  .container-in {
+    border: 3px solid rgba(0, 0, 0, 0.575);
+    border-radius: 5px;
+    background-color: rgba(150, 150, 150, 0.25);
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+  }
+
+  .container2 > form > label {
+    display: block;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    border: 3px solid rgba(0, 0, 0, 0.575);
+    border-radius: 5px;
+  }
+
+.container-achtergrond {
+  background-image: url("../images/home-background.jpg");
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+}
+
+.container-3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
